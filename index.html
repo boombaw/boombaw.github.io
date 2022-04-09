@@ -1,208 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Resume</title>
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-</head>
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/tri_logo.ico" type="image/x-icon">
+
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Portofolio</title>
+</head>
 <body>
 
-    <div class="resume">
-        <div class="resume_left">
-            <div class="resume_profile">
-                <img src="img/pp.jpg" alt="">
+    <!-- Begin Header Profile -->
+    <header class="profile container">
+        <!-- Theme Button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-            </div>
-            <div class="resume_content">
-                <div class="resume_item resume_info">
-                    <div class="title">
-                        <p class="bold">tri fitriadi</p>
-                        <p class="regular">Web Developer</p>
-                    </div>
-                    <ul>
-                        <li>
-                            <div class="icon">
-                                <i class="fas fa-map-signs"></i>
-                            </div>
-                            <div class="data">
-                                Dukuh Zamrud, Bekasi<br /> Indonesia
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                            <div class="data">
-                                +62 81280081498
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="data">
-                                tri.fitriadi0392@gmail.com
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="fa fa-calendar"></i>
-                            </div>
-                            <div class="data">
-                                Jakarta, 03-April-1992
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="fab fa-github"></i>
-                            </div>
-                            <div class="data">
-                                github.com/boombaw
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="resume_item resume_skills">
-                    <div class="title">
-                        <p class="bold">skill's</p>
-                    </div>
-                    <ul>
-                        <li>
-                            <div class="skill_name">
-                                PHP
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill_name">
-                                Node.Js
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill_name">
-                                Golang
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill_name">
-                                HTML
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill_name">
-                                CSS
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill_name">
-                                MySQL
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill_name">
-                                PostgreSQL
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill_name">
-                                SQLServer
-                            </div>
-                        </li>
-                        <li>
-                            <div class="skill_name">
-                                VB.Net
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="resume_right">
-            <div class="resume_item resume_work">
-                <div class="title">
-                    <p class="bold">Work Experience</p>
-                </div>
-                <ul>
-                    <li>
-                        <div class="date">2019 - Now</div>
-                        <div class="info">
-                            <p class="semi-bold">UNIVERSITAS BHAYANGKARA JAKARTA RAYA </p>
-                            <p>Developing, testing and maintaining software applications and server. Investigate new
-                                technology to ensure that the
-                                company can provide the best experience.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="date">2017 - 2019</div>
-                        <div class="info">
-                            <p class="semi-bold">PT. SURYA LINTAS NUSANTARA</p>
-                            <p>Developing sofware applications, and maintaining an mail server for corporate
-                                sustainability</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="date">2015 - 2017</div>
-                        <div class="info">
-                            <p class="semi-bold">HIT CORPORATION</p>
-                            <p>Full Stack Developer, Participated in project meetings, with technical staff members,
-                                business
-                                analysts, and external stakeholders.
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="resume_item resume_education">
-                <div class="title">
-                    <p class="bold">Education</p>
-                </div>
-                <ul>
-                    <li>
-                        <div class="date">2012 - 2015</div>
-                        <div class="info">
-                            <p class="semi-bold">STT TEXMACO SUBANG</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="resume_item resume_portofolio">
-                <div class="title">
-                    <p class="bold">Portofolio</p>
-                </div>
-                <ul>
-                    <li>
-                        <div class="info">Aplikasi TKD Statis (Dispenda Jakarta)</div>
-                    </li>
-                    <li>
-                        <div class="info">Aplikasi Attendance (Woowtime) PT. Harita Nickel</div>
-                    </li>
-                    <li>
-                        <div class="info">Aplikasi Inventory</div>
-                    </li>
-                    <li>
-                        <div class="info">Aplikasi BKD (Beban Kinerja Dosen) <a href="http://bkd.ubharajaya.ac.id">http://bkd.ubharajaya.ac.id</a></div>
-                    </li>
-                    <li>
-                        <div class="info">Aplikasi SIA (Sistem Informasi Akademik) <a href="http://sia.ubharajaya.ac.id">http://sia.ubharajaya.ac.id</a></div>
-                    </li>
-                    <li>
-                        <div class="info">Aplikasi Pencatatan <a href="https://app.parahiyanganstore.com">https://app.parahiyanganstore.com</a></div>
-                    </li>
-                    <li>
-                        <div class="info">Aplikasi scheduler set lunas pembayaran krs mahasiswa </div>
-                    </li>
-                    <li>
-                        <div class="info">Sinkronisasi Sistem Informasi Akademik ke Aplikasi Feeder PDDIKTI</div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+        <div class="profile__container grid">
 
+            <!-- Profile Data -->
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="assets/img/tri.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Tri Fitriadi</h2>
+                <h3 class="profile__profession">Web Developer</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/tri.fitriadi/" target="_blank" class="profile__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>  
+                    <a href="https://www.linkedin.com/in/tri-fitriadi/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://www.github.com/boombaw" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Profile Info -->
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">8</h3>
+                    <p class="profile__info-desscription">Years of <br> work</p>
+                </div>
+                
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">&plusmn;20</h3>
+                    <p class="profile__info-desscription">Completed <br> projects</p>
+                </div>
+                
+                <!-- <div class="profile__info-group">
+                    <h3 class="profile__info-number">96</h3>
+                    <p class="profile__info-desscription">Satisfied <br> customers</p>
+                </div> -->
+            </div>
+
+            <!-- Profile Button -->
+            <div class="profile__buttons">
+                <a download="" href="assets/doc/Resume_Tri_Fitriadi.pdf" class="button">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+                
+                <div class="profile__buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=6281280081498&text=Hai, more information !" target="_blank" class="button button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- End Header Profile -->
+    
+
+    <!-- Main -->
+    <main class="main">
+
+        <section class="filters container">
+            <!-- Tabs -->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Projects
+                </button>
+        
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+
+                
+            </ul>
+
+            <!-- Tab Content -->
+            <div class="filters__sections">
+                <!-- Project -->
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    
+                    <div class="projects__area">
+
+                        <div class="projects__box">
+                            <div class="projects__group">
+                                <div class="projects__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="projects__name">TKD Statis</h3>
+                                        <span class="projects__level">Dispenda Jakarta</span>
+                                    </div>
+                                </div>
+
+                                <div class="projects__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="projects__name">Attendance (Woowtime)</h3>
+                                        <span class="projects__level">PT. Harita Nickel</span>
+                                    </div>
+                                </div>
+
+                                <div class="projects__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="projects__name">Attendance (Desktop App)</h3>
+                                        <span class="projects__level">UOB Plaza</span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="projects__group">
+                                <div class="projects__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="projects__name">BKD</h3>
+                                        <span class="projects__level">Univ. Bhayangkara Jakarta Raya</span>
+                                    </div>
+                                </div>
+
+                                <div class="projects__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="projects__name">SIA</h3>
+                                        <span class="projects__level">Univ. Bhayangkara Jakarta Raya</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="projects__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="projects__name">Integration Feeder</h3>
+                                        <span class="projects__level">Univ. Bhayangkara Jakarta Raya</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Skills -->
+                <div class="skills__content grid" data-content id="skills">
+                    <!-- Frontend -->
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Frontend Developer
+                        </h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Javascript</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skills__area">
+                        <h3 class="skills__title">Backend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Advance</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Golang</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Node Js</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">C#</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+        
+    </main>
+    <!-- End -->
+
+    <!-- Begin Footer -->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; Tri. All rights reserved
+        </span>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scroll Reveal -->
+
+    <!-- Main JS -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
 </body>
-
 </html>
